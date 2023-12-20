@@ -1,8 +1,8 @@
 
 <template>
     <div class="flex flex-col gap-10 mb-52">
-      <div class="overflow-hidden lg:h-[600px]">
-            <img src="/media/images/Hvemvier.jpg" alt="">
+      <div class="overflow-hidden max-h-[600px]">
+            <img src="/media/images/Headerbilleder-HvemViEr.jpg" alt="" class="w-full">
         </div>
   
         <!-- <div class="overflow-hidden lg:h-[600px]">

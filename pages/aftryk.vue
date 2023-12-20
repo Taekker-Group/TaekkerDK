@@ -31,8 +31,8 @@ const data = [ {
 
 <template>
   <div class="flex flex-col gap-10 mb-52">
-      <div class="overflow-hidden lg:h-[600px]">
-          <img src="/media/images/Aftryk.jpg" alt="">
+      <div class="overflow-hidden max-h-[600px]">
+          <img src="/media/images/Headerbilleder-Aftryk.jpg" alt="" class="w-full">
       </div>
 
     <div class="flex flex-col lg:px-52">

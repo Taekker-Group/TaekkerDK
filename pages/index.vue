@@ -41,8 +41,8 @@ onMounted(() => {
 
 <template>
   <div class="flex flex-col gap-10 mb-52">
-      <div class="w-screen">
-          <img class="w-screen lg:h-[600px]" src="/media/images/header.png" alt="">
+      <div class="overflow-hidden max-h-[600px] w-full">
+          <img class="object-fill w-full object-left-bottom" src="/media/images/header.jpg" alt="">
       </div>
       <div class="">
           <p class="w-full p-10 lg:w-1/2 leading-8 text-justify lg:translate-x-1/2 text-psmall text-[#4c443f]">Med liv, indlevelse og ærlighed går vi forrest i projekter der gør en forskel på den lange bane. Vi vægter variation og detaljerigdom i vores arbejde, der skal fortælle historier og inspirere. Arbejde, der får hjertet til at slå lidt hurtigere. Igennem vilje og vedholdenhed finder vi balance mellem passion, hensyn og forretning. Vi arbejder med mennesker og for mennesker.</p>
@@ -102,7 +102,7 @@ Frem for alt er vi bedst til at være til stede og nærværende i vores opgaver.
             <h5 class="text-[34px] tracking-wider font-black uppercase text-brown">Aftryk</h5>
             <p class="font-black text-brown">enim ad minim veniam, quis nostrud laboris nisi ut.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <NuxtLink to="/galleri" class="text-red uppercase mt-20 text-link">Få indblik i vores projekter</NuxtLink>
+            <NuxtLink to="/indtryk" class="text-red uppercase mt-20 text-link">Få indblik i vores projekter</NuxtLink>
         </div>
           <div class="overflow-hidden lg:w-2/3 flex gap-8">
               <div class="w-full flex flex-col gap-6 overflow-x-auto" ref="imageContainer" @scroll="handleScroll">

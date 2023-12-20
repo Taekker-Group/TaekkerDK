@@ -47,8 +47,8 @@ const toggleDrawer = (companyid) => {
 
 <template>
     <div class="flex flex-col gap-10 mb-52">
-        <div class="overflow-hidden lg:h-[600px]">
-            <img src="/media/images/firmaerne.png" alt="">
+        <div class="overflow-hidden max-h-[600px]">
+            <img src="/media/images/Headerbilleder-Kompetencer.jpg" alt="" class="w-full">
         </div>
   
       <div class="flex flex-col px-10 lg:px-52">

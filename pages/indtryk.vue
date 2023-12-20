@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-10 mb-52">
-      <div class="overflow-hidden lg:h-[600px]">
-          <img src="/media/images/Galleri.png" alt="">
+      <div class="overflow-hidden max-h-[600px]">
+          <img src="/media/images/Headerbilleder-Indtryk.jpg" alt="" class="object-center w-full">
       </div>
 
     <div class="flex flex-col w-full gap-5">
