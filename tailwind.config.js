@@ -19,12 +19,19 @@ export default {
       rosa: "#f7ebed",
       green: "#00a565",
       greenTwo: "#a9ba2f",
-      brown: "#55493d",
+      brown: "#3a302b",
     },
     extend: {
       sans: ['Inter', 'Arial', 'sans-serif'],
     },
       fontSize: {
+        link: [
+          "12px",
+          {
+            fontWeight: "200",
+            lineHeight: "10px",
+          },
+        ],
         xsmall: [
           "12px",
           {
