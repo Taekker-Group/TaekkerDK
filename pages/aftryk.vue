@@ -1,31 +1,32 @@
 <script setup>
-const data = [ {
-            title: 'Tre boliger i tasiilaq  - Østgrønland Byen ligger på den store ø Ammassalik',
-            subTitle: 'Tasiilaq',
-            images: {
-                one: '/media/images/grønland1.png',
-                two: '/media/images/grønland2.png',
-                three: '/media/images/grønland3.png',
-            }
-        },
-        {
-            title: 'LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT SED DO.',
-                subTitle: 'LOREM IPSUM',
-                images: {
-                    one: '/media/images/kirke1.png',
-                    two: '/media/images/kirke2.png',
-                    three: '/media/images/kirke3.png',
-                }
-        },
-        {
-                title: 'LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT SED DO.',
-                subTitle: 'LOREM IPSUM',
-                images: {
-                    one: '/media/images/paradis3.png',
-                    two: '/media/images/paradis1.png',
-                    three: '/media/images/paradis2.png',
-                },
+const data = [ 
+    {
+        title: 'Tre boliger i tasiilaq  - Østgrønland Byen ligger på den store ø Ammassalik',
+        subTitle: 'Tasiilaq',
+        images: {
+            one: '/media/images/grønland1.png',
+            two: '/media/images/grønland2.png',
+            three: '/media/images/grønland3.png',
         }
+    },
+    {
+        title: 'LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT SED DO.',
+        subTitle: 'LOREM IPSUM',
+        images: {
+            one: '/media/images/kirke1.png',
+            two: '/media/images/kirke2.png',
+            three: '/media/images/kirke3.png',
+        }
+    },
+    {
+        title: 'LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT SED DO.',
+        subTitle: 'LOREM IPSUM',
+        images: {
+            one: '/media/images/paradis3.png',
+            two: '/media/images/paradis1.png',
+            three: '/media/images/paradis2.png',
+        },
+    }
 ]
 </script>
 
